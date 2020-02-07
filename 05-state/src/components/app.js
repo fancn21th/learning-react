@@ -1,5 +1,12 @@
 import React from "react";
+import { FaStar } from "react-icons/fa";
 
-const App = () => <div>hello world!</div>;
-
-export default App;
+export default () => {
+  return [
+    <FaStar color="red" />,
+    <FaStar color="red" />,
+    <FaStar color="red" />,
+    <FaStar color="grey" />,
+    <FaStar color="grey" />
+  ];
+};
