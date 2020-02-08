@@ -1,12 +1,4 @@
 import React from "react";
-import { FaStar } from "react-icons/fa";
+import StarRating from "./StarRating";
 
-export default () => {
-  return [
-    <FaStar color="red" />,
-    <FaStar color="red" />,
-    <FaStar color="red" />,
-    <FaStar color="grey" />,
-    <FaStar color="grey" />
-  ];
-};
+export default () => <StarRating totalStars={10} />;
