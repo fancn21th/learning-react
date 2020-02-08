@@ -2,9 +2,10 @@
   "name": "05-state",
   "version": "1.0.0",
   "description": "",
-  "main": "recipes.js",
+  "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,10 @@
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
-    "webpack": "^3.12.0"
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
   }
 }
