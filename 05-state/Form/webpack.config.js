@@ -8,7 +8,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "State Management",
+      title: "Form",
       template: "index.html"
     })
   ],
